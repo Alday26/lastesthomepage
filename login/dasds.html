@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="globals.css" />
+    <link rel="stylesheet" href="/static/home.css" />
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+</head>
+<body>
+    <div class="landing container">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="overlap">
+                    <img class="vector" src="img/vector.svg" />
+                    <img class="img" src="img/vector-2.svg" />
+                    <h2 class="text-wrapper">FIND CLOTHES THAT MATCH YOUR STYLE</h2>
+                    <p class="p">
+                        Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality
+                        and cater to your sense of style.
+                    </p>
+                    <div class="frame btn btn-primary">Shop Now</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="frame-2">
+                    <div class="text-wrapper-3">SHOP.CO</div>
+                    <nav class="nav">
+                        <a class="nav-link" href="#">Shop</a>
+                        <a class="nav-link" href="#">On Sale</a>
+                        <a class="nav-link" href="#">New Arrivals</a>
+                        <a class="nav-link" href="#">Brands</a>
+                        <a class="nav-link" href="{{ url_for('login') }}">Login</a>
+                    </nav>
+                    <div class="input-group mb-3">
+                        <input type="text" class="form-control" placeholder="Search for products..." />
+                        <div class="input-group-append">
+                            <button class="btn btn-outline-secondary" type="button">Search</button>
+                        </div>
+                    </div>
+                </div>
+                <img class="frame-8" src="img/frame-5.svg" />
+            </div>
+        </div>
+
+        <h3 class="text-wrapper-7">Featured Products</h3>
+        <div class="row">
+            <div class="col-md-3">
+                <img class="image" src="img/image-7-2.png" />
+                <p class="t-SHIRT-WITH-TAPE">T-SHIRT WITH TAPE DETAILS</p>
+                <div class="text-wrapper-10">$120</div>
+            </div>
+            <div class="col-md-3">
+                <img class="image-2" src="img/image-8.png" />
+                <p class="SKINNY-FIT-JEANS">SKINNY FIT JEANS</p>
+                <div class="text-wrapper-10">$130</div>
+            </div>
+            <div class="col-md-3">
+                <img class="image" src="img/image-9.png" />
+                <p class="CHECKERED-SHIRT">CHECKERED SHIRT</p>
+                <div class="text-wrapper-10">$240</div>
+            </div>
+            <div class="col-md-3">
+                <img class="image" src="img/image.png" />
+                <p class="SLEEVE-STRIPED-t">SLEEVE STRIPED T-SHIRT</p>
+                <div class="text-wrapper-10">$180</div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.2/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
